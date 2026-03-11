@@ -1,0 +1,6 @@
+.container {
+  margin: 0 auto;
+  max-width: 144rem;
+  padding-top: 15.5rem;
+  background-color: var(--tertiary-color);
+}

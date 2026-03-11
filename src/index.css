@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #352626;
+  --primary-color-light: #6b5a5a;
+  --secondary-color: #d3812f;
+  --tertiary-color: #f6f2f2;
+  --tertiary-color-dark: #e8dbdb;
+  --white-color: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: normal;
+  font-family: Roboto;
+  /* font-family: Montserrat; */
+}
+
+@media (max-width: 75em) {
+}
+@media (max-width: 59em) {
+}
+@media (max-width: 44em) {
+}
+@media (max-width: 23.5em) {
+}

@@ -1,0 +1,147 @@
+.contact {
+  width: 100%;
+  height: auto;
+  color: var(--primary-color);
+  margin-bottom: 18.9rem;
+}
+
+.contact header {
+  text-align: center;
+}
+
+.contact header h2 span {
+  color: var(--secondary-color);
+}
+
+.line {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  width: 13.4rem;
+  height: 0.3rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
+}
+
+.contact_cont {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 6.7rem;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  align-items: center;
+}
+.contact_cont form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact_cont form div input {
+  width: 90%;
+  background-color: var(--tertiary-color-dark);
+  /* height: 3.5rem; */
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 3.5rem;
+  border: 0.2rem solid transparent;
+  font-size: 1.6rem;
+}
+.contact_cont form div input::placeholder,
+.contact_cont form div textarea::placeholder {
+  /* color: var(--primary-color-dark); */
+  font-size: 1.6rem;
+}
+.contact_cont form div input:focus,
+.contact_cont form div textarea:focus {
+  border: 0.2rem solid var(--secondary-color);
+  outline: none;
+}
+
+.contact_cont form div textarea {
+  height: 16rem;
+  width: 95%;
+  background-color: var(--tertiary-color-dark);
+  /* height: 3.5rem; */
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid transparent;
+  font-size: 1.6rem;
+}
+
+.contact_message_cont {
+  grid-column: span 2;
+}
+
+.contact_cont form button {
+  background-color: var(--secondary-color);
+  justify-self: left;
+  padding: 0.9rem 2rem;
+  border-radius: 4rem;
+  margin-top: 4rem;
+}
+.contact_card {
+  justify-self: center;
+  width: 90%;
+}
+
+.contact_card_text_cont {
+  /* height: 5rem; */
+  width: 100%;
+  color: var(--color-white);
+  /* justify-self: center; */
+  background-color: var(--primary-color);
+  padding: 6.9rem 0 10rem 3.9rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.contact_card_info {
+  color: var(--secondary-color);
+}
+.contact_card_info_cont {
+  margin-top: 6.5rem;
+}
+
+.contact_card_social_cont {
+  background-color: var(--secondary-color);
+  width: 100%;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 5rem 2rem 5rem 4.4rem;
+}
+
+.contact_card_social_cont p {
+  margin-bottom: 1rem;
+  color: var(--color-white);
+}
+.contact_card_social_cont div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 75em) {
+}
+@media (max-width: 59em) {
+  .contact_cont {
+    width: 98%;
+  }
+}
+@media (max-width: 50em) {
+}
+@media (max-width: 44em) {
+  .contact_cont {
+    grid-template-columns: 1fr;
+    row-gap: 10rem;
+  }
+  .contact_cont form {
+    width: 90%;
+    justify-self: center;
+  }
+}
+@media (max-width: 37.5em) {
+}
+@media (max-width: 23.5em) {
+}

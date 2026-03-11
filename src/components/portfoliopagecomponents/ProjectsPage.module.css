@@ -1,0 +1,7 @@
+.projects {
+  margin: 0 auto;
+  max-width: 144rem;
+  /* padding-top: 2.9rem; */
+  padding-top: 5.5rem;
+  background-color: var(--tertiary-color);
+}

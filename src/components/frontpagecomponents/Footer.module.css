@@ -1,0 +1,133 @@
+.footer {
+  width: 100%;
+  height: auto;
+  margin-top: 9.9rem;
+  color: var(--primary-color);
+}
+
+.footer header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer header h2 span {
+  color: var(--secondary-color);
+}
+
+.footer header h2 {
+  padding-bottom: 4.5rem;
+  border-bottom: 0.2rem solid var(--tertiary-color-dark);
+  margin-bottom: 6.6rem;
+}
+
+.footer_main {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  margin-bottom: 6.6rem;
+}
+.webname_cont {
+  margin-bottom: 2.9rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 2.2rem;
+}
+.webname_cont img {
+  width: 7rem;
+}
+
+.footer_main_first p {
+  margin-bottom: 3.3rem;
+}
+
+.footer_icons_cont {
+  display: flex;
+  gap: 4.2rem;
+}
+
+.footer_main_second,
+.footer_main_third {
+  justify-self: center;
+  /* align-self: center; */
+  margin-top: 5.8rem;
+}
+.footer_main_second li,
+.footer_main_third li {
+  padding-left: 2rem;
+  margin-bottom: 1.2rem;
+}
+.footer_main_second li:first-child,
+.footer_main_third li:first-child {
+  padding: 0;
+  color: var(--secondary-color);
+}
+
+.footer_mobile_nav {
+  display: none;
+}
+
+.footer_mobile_nav_second li:first-child,
+.footer_mobile_nav_third li:first-child {
+  padding: 0;
+  color: var(--secondary-color);
+}
+
+.footer_close {
+  width: 100%;
+  /* height: 5rem; */
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  padding: 3.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_close p span {
+  color: var(--secondary-color);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 75em) {
+}
+@media (max-width: 59em) {
+  .footer_main,
+  .footer header {
+    width: 98%;
+  }
+}
+@media (max-width: 50em) {
+}
+@media (max-width: 44em) {
+  .footer_main_second,
+  .footer_main_third {
+    display: none;
+  }
+  .footer_mobile_nav {
+    display: block;
+    padding-left: 2rem;
+  }
+  .footer_icons_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  .footer_main {
+    grid-template-columns: 1fr;
+  }
+  .footer_close {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .footer_close {
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 1rem;
+    /* padding-bottom: 2rem; */
+  }
+}
+@media (max-width: 23.5em) {
+}
