@@ -1,5 +1,6 @@
 import style from "./NavBar.module.css";
 import poweronsvg from "../../assets/svg/poweron.svg";
+import cancel from "../../assets/svg/cancel.svg";
 import menu from "../../assets/svg/menu.svg";
 import H1 from "../../utilities/H1";
 import H3 from "../../utilities/H3";
@@ -22,28 +23,39 @@ function NavBar() {
         </Link>
       </div>
       <nav className={style.navigation}>
-        <a href="#">
+        <Link to="/">
           <P18>Home</P18>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/#about">
           <P18>About me</P18>
-        </a>
-        <a href="#">
+        </Link>
+        <Link to="/#services">
           <P18>Services</P18>
-        </a>
+        </Link>
       </nav>
-      <a className={style.nav_btn} href="#">
+      <Link className={style.nav_btn} to="/#contact_me">
         <P18>Contact Me</P18>
-      </a>
+      </Link>
 
-      <img
-        src={menu}
-        alt="menu icon"
-        className={style.mobile_menu}
-        onClick={() => {
-          dispatch(modalActions.openCloseModal());
-        }}
-      />
+      {!isOpen ? (
+        <img
+          src={menu}
+          alt="menu icon"
+          className={style.mobile_menu}
+          onClick={() => {
+            dispatch(modalActions.openCloseModal());
+          }}
+        />
+      ) : (
+        <img
+          src={cancel}
+          alt="cancel icon"
+          className={style.mobile_menu_close}
+          onClick={() => {
+            dispatch(modalActions.openCloseModal());
+          }}
+        />
+      )}
     </header>
   );
 }

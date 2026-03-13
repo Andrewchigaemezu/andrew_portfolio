@@ -45,14 +45,17 @@
   border-radius: 4rem;
 }
 
-.mobile_menu {
+.mobile_menu,
+.mobile_menu_close {
   display: none;
   justify-self: right;
 }
 
-.mobile_menu,
 .mobile_menu {
   width: 4rem;
+}
+.mobile_menu_close {
+  width: 2.5rem;
 }
 
 /* MEDIA QUERIES */
@@ -88,7 +91,7 @@
     display: none;
   }
   .mobile_menu,
-  .mobile_menu {
+  .mobile_menu_close {
     display: inline-block;
   }
 

@@ -9,6 +9,7 @@ import linkedinicon from "../../assets/svg/linkedinicon.svg";
 import poweronicon from "../../assets/svg/poweron.svg";
 import P16 from "../../utilities/P16";
 import P14 from "../../utilities/P14";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -35,29 +36,29 @@ function Footer() {
                 <P18B>Navigation</P18B>
               </li>
               <li>
-                <a href="#">
+                <Link to="/">
                   <P16>Home</P16>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/#about">
                   <P16>About</P16>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/#services">
                   <P16>Services</P16>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/portfolio">
                   <P16>Portfolio</P16>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/#faqs">
                   <P16>FAQs</P16>
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className={style.footer_mobile_nav_third}>
@@ -89,29 +90,29 @@ function Footer() {
             <P18B>Navigation</P18B>
           </li>
           <li>
-            <a href="#">
+            <Link to="/">
               <P16>Home</P16>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/#about">
               <P16>About</P16>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/#services">
               <P16>Services</P16>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/portfolio">
               <P16>Portfolio</P16>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/#faqs">
               <P16>FAQs</P16>
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className={style.footer_main_third}>

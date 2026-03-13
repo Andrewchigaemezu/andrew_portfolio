@@ -50,7 +50,7 @@ function Faqs() {
   }
 
   return (
-    <section className={style.faqs}>
+    <section className={style.faqs} id="faqs">
       <header>
         <P18B>FAQs</P18B>
         <span className={style.line}></span>
