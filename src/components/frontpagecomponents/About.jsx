@@ -48,11 +48,21 @@ function About() {
             </div>
             <div>
               <img src={phoneicon} alt="phone icon" />
-              <P16>+234 901 638 2289</P16>
+              <a
+                href="https://wa.me/2349016382289"
+                className={style.achievement_cont_link}
+              >
+                <P16>+234 901 638 2289</P16>
+              </a>
             </div>
             <div>
               <img src={mailicon} alt="mail icon" />
-              <P16>elechiandrewchigaemezu@gmail.com</P16>
+              <a
+                href="mailto:yourname@example.com"
+                className={style.achievement_cont_link}
+              >
+                <P16>elechiandrewchigaemezu@gmail.com</P16>
+              </a>
             </div>
           </div>
         </div>

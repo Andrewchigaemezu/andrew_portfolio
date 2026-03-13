@@ -66,7 +66,7 @@ function Footer() {
                 <P18B>Contact</P18B>
               </li>
               <li>
-                <a href="tel:+2349016382289">
+                <a href="https://wa.me/2349016382289">
                   {" "}
                   <P16>+234 901 6382 289</P16>
                 </a>
@@ -120,7 +120,7 @@ function Footer() {
             <P18B>Contact</P18B>
           </li>
           <li>
-            <a href="tel:+2349016382289">
+            <a href="https://wa.me/2349016382289">
               {" "}
               <P16>+234 901 6382 289</P16>
             </a>

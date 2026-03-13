@@ -116,6 +116,7 @@
 }
 .hero_hire_link:link,
 .hero_hire_link:visited {
+  text-decoration: none;
   display: inline-block;
 
   padding: 1rem 4.2rem;

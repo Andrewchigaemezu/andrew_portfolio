@@ -52,7 +52,10 @@ function Hero() {
               <P18>Portfolio</P18>
               <img src={circlearrowicon} alt="circle arrow" />
             </Link>
-            <a href="#" className={style.hero_hire_link}>
+            <a
+              href="https://wa.me/2349016382289"
+              className={style.hero_hire_link}
+            >
               <P18B>Hire Me</P18B>
             </a>
           </div>

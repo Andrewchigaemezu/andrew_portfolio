@@ -98,8 +98,18 @@ function Contact() {
           <div className={style.contact_card_text_cont}>
             <div>
               <P18B classname={style.contact_card_info}>Contact</P18B>
-              <P16>+234 901 6382 289</P16>
-              <P16>elechiandrewchigaemezu@gmail.com</P16>
+              <a
+                href="https://wa.me/2349016382289"
+                className={style.contact_card_info_link}
+              >
+                <P16>+234 901 6382 289</P16>
+              </a>
+              <a
+                href="mailto:yourname@example.com"
+                className={style.contact_card_info_link}
+              >
+                <P16>elechiandrewchigaemezu@gmail.com</P16>
+              </a>
             </div>
 
             <div className={style.contact_card_info_cont}>

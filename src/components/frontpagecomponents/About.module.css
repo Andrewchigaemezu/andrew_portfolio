@@ -58,6 +58,13 @@
   padding: 0.5rem 1.6rem 0.5rem 0.5rem;
   border-radius: 5rem;
 }
+.achievement_cont_link:link,
+.achievement_cont_link:visited {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--primary-color);
+}
 
 .about_img_cont {
   justify-self: right;

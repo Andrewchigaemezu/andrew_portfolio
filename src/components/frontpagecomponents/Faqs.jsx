@@ -170,7 +170,10 @@ function Faqs() {
             <P16B>You have different question? Ask already!</P16B>
             <br />
             <P16>Your Questions, My answers and very quick response time</P16>
-            <a href="#" className={style.faqs_card_btn}>
+            <a
+              href="https://wa.me/2349016382289"
+              className={style.faqs_card_btn}
+            >
               <P16B>Contact Us</P16B>
             </a>
           </div>
