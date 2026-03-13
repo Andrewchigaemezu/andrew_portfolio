@@ -63,7 +63,8 @@
 @media (max-width: 44em) {
   .service_list_cont li {
     padding: 1.5rem 0;
-    border-radius: 1rem;
+    padding-right: 1.5rem;
+    border-radius: 1.8rem;
   }
   .service_list_cont li p:last-child {
     padding-left: 2rem;
