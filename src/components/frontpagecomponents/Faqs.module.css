@@ -108,7 +108,7 @@
 }
 @media (max-width: 59em) {
   .faqs_card_cont {
-    width: 98%;
+    width: 95%;
     grid-template-columns: 1fr;
     row-gap: 6rem;
   }
@@ -122,6 +122,11 @@
 @media (max-width: 50em) {
 }
 @media (max-width: 44em) {
+  .faqs_cont li {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 1.5rem;
+  }
 }
 @media (max-width: 37.5em) {
 }

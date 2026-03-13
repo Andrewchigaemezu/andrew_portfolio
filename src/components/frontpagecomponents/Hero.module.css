@@ -200,20 +200,17 @@
   }
 
   .hero_main {
-    grid-template-columns: 0.8fr 1.8fr 1.4fr;
+    grid-template-columns: 1.8fr 1.2fr;
   }
-}
-
-@media (max-width: 50em) {
   .hero_left {
     display: none;
-  }
-  .hero_main {
-    grid-template-columns: 1.8fr 1.2fr;
   }
   .hero_center_textbox {
     transform: translate(-10%, 10%);
   }
+}
+
+@media (max-width: 50em) {
 }
 @media (max-width: 44em) {
   .hero_right_text_cont {

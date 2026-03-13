@@ -126,7 +126,7 @@
 }
 @media (max-width: 59em) {
   .contact_cont {
-    width: 98%;
+    width: 95%;
   }
 }
 @media (max-width: 50em) {
@@ -135,6 +135,7 @@
   .contact_cont {
     grid-template-columns: 1fr;
     row-gap: 10rem;
+    justify-items: center;
   }
   .contact_cont form {
     width: 90%;

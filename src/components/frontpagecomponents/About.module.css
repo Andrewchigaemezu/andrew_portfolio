@@ -106,10 +106,10 @@
 }
 @media (max-width: 50em) {
   .about_cont {
-    width: 98%;
+    width: 95%;
   }
   .about_img_eclipes {
-    transform: translate(30%, -280%);
+    transform: translate(40%, -350%);
   }
 }
 @media (max-width: 44em) {
@@ -129,11 +129,11 @@
   .about {
     padding-top: 8rem;
   }
+  .about_img_eclipes {
+    transform: translate(10%, -150%);
+  }
 }
 @media (max-width: 37.5em) {
 }
 @media (max-width: 23.5em) {
-  .about_img_eclipes {
-    transform: translate(10%, -150%);
-  }
 }

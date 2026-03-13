@@ -117,7 +117,7 @@
 @media (max-width: 59em) {
   .portfolio_card_cont,
   .portfolio_text_cont {
-    width: 98%;
+    width: 95%;
   }
 }
 @media (max-width: 50em) {

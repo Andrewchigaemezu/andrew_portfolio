@@ -1,7 +1,7 @@
 import style from "./Faqs.module.css";
 import H2B from "../../utilities/H2B";
 import P18, { P18B } from "../../utilities/P18";
-import { H3B } from "../../utilities/H3";
+import H3, { H3B } from "../../utilities/H3";
 import addicon from "../../assets/svg/addicon.svg";
 import messageicon from "../../assets/svg/messageicon.svg";
 import P16, { P16B } from "../../utilities/P16";
@@ -62,7 +62,7 @@ function Faqs() {
         <ul className={style.faqs_cont}>
           <li style={{ backgroundColor: `${availableq ? "#d3812f" : ""}` }}>
             <div>
-              <H3B>Are you available for freelance of contract roles?</H3B>
+              <H3>Are you available for freelance of contract roles?</H3>
               {availableq && (
                 <P18>
                   I don't limit myself to one industry — I've worked on projects
@@ -82,7 +82,7 @@ function Faqs() {
           </li>
           <li style={{ backgroundColor: `${inductryq ? "#d3812f" : ""}` }}>
             <div>
-              <H3B>What industries do you specialize in?</H3B>
+              <H3>What industries do you specialize in?</H3>
               {inductryq && (
                 <P18>
                   I don't limit myself to one industry — I've worked on projects
@@ -102,7 +102,7 @@ function Faqs() {
           </li>
           <li style={{ backgroundColor: `${stackq ? "#d3812f" : ""}` }}>
             <div>
-              <H3B>What stacks do you use in your workflow?</H3B>
+              <H3>What stacks do you use in your workflow?</H3>
               {stackq && (
                 <P18>
                   I don't limit myself to one industry — I've worked on projects
@@ -122,7 +122,7 @@ function Faqs() {
           </li>
           <li style={{ backgroundColor: `${portfolioq ? "#d3812f" : ""}` }}>
             <div>
-              <H3B>How do I navigate through your portfolio?</H3B>
+              <H3>How do I navigate through your portfolio?</H3>
               {portfolioq && (
                 <P18>
                   I don't limit myself to one industry — I've worked on projects
@@ -142,7 +142,7 @@ function Faqs() {
           </li>
           <li style={{ backgroundColor: `${cvq ? "#d3812f" : ""}` }}>
             <div>
-              <H3B>Can I download your CV?</H3B>
+              <H3>Can I download your CV?</H3>
               {cvq && (
                 <P18>
                   I don't limit myself to one industry — I've worked on projects

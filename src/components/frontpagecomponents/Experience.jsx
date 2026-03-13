@@ -24,7 +24,7 @@ function Experience() {
           </li>
           <li>
             <div>
-              <P18B>St. Peter Secondary School</P18B>
+              <P18B>St. Peter Sec School</P18B>
               <P16>SSCE</P16>
             </div>
             <P16 classname={style.experience_year}>2013 - 2019</P16>

@@ -3,5 +3,5 @@ export function H3B({ children }) {
 }
 
 export default function H3({ children }) {
-  return <h3 style={{ fontSize: "2.4rem", fontWeight: "500" }}>{children}</h3>;
+  return <h3 style={{ fontSize: "2.4rem", fontWeight: "600" }}>{children}</h3>;
 }
