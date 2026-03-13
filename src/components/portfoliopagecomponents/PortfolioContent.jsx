@@ -7,6 +7,7 @@ import urlsvg from "../../assets/svg/urlsvg.svg";
 import gitsvg from "../../assets/svg/gitsvg.svg";
 import raichielle from "../../assets/img/raichielle.png";
 import codemek from "../../assets/img/codemek.png";
+import { Link } from "react-router-dom";
 
 function PortfolioContent() {
   return (
@@ -46,88 +47,20 @@ function PortfolioContent() {
               </li>
             </ul>
             <div className={style.project_links_cont}>
-              <a href="#" className={style.project_link}>
+              <Link
+                to="https://raichielle-q9v5.vercel.app/"
+                className={style.project_link}
+              >
                 <img src={urlsvg} alt="url icon" />
                 <P18>Visit site</P18>
-              </a>
-              <a href="#" className={style.project_link}>
+              </Link>
+              <Link
+                to="https://github.com/Andrewchigaemezu/raichielle"
+                className={style.project_link}
+              >
                 <img src={gitsvg} alt="github icon" />
                 <P16>Visit repo </P16>
-              </a>
-            </div>
-          </div>
-        </figure>
-        <figure className={style.portfolio_card}>
-          <div className={style.portfolio_card_text_cont}>
-            <H2B>
-              CodeMek- <br />
-              <span>Flight Booking website</span>
-            </H2B>
-            <ul>
-              <li>
-                <P16B>Client</P16B>
-                <P16>Keneth Alozie</P16>
-              </li>
-              <li>
-                <P16B>Duration</P16B>
-                <P16>5 Months</P16>
-              </li>
-              <li>
-                <P16B>Country</P16B>
-                <P16>Nigeria</P16>
-              </li>
-            </ul>
-            <div className={style.project_links_cont}>
-              <a href="#" className={style.project_link}>
-                <img src={urlsvg} alt="url icon" />
-                <P18>Visit site</P18>
-              </a>
-              <a href="#" className={style.project_link}>
-                <img src={gitsvg} alt="github icon" />
-                <P16>Visit repo </P16>
-              </a>
-            </div>
-          </div>
-          <img
-            src={codemek}
-            alt="codemek company website design image"
-            className={style.portfolio_card_img}
-          />
-        </figure>
-        <figure className={style.portfolio_card}>
-          <img
-            src={raichielle}
-            alt="raichielle company website design image"
-            className={style.portfolio_card_img}
-          />
-          <div className={style.portfolio_card_text_cont}>
-            <H2B>
-              Raichielle- <br />
-              <span>Fashion Company's website</span>
-            </H2B>
-            <ul>
-              <li>
-                <P16B>Client</P16B>
-                <P16>Raechel Mbah</P16>
-              </li>
-              <li>
-                <P16B>Duration</P16B>
-                <P16>4 Months</P16>
-              </li>
-              <li>
-                <P16B>Country</P16B>
-                <P16>Nigeria</P16>
-              </li>
-            </ul>
-            <div className={style.project_links_cont}>
-              <a href="#" className={style.project_link}>
-                <img src={urlsvg} alt="url icon" />
-                <P18>Visit site</P18>
-              </a>
-              <a href="#" className={style.project_link}>
-                <img src={gitsvg} alt="github icon" />
-                <P16>Visit repo </P16>
-              </a>
+              </Link>
             </div>
           </div>
         </figure>
