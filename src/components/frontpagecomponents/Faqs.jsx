@@ -78,6 +78,7 @@ function Faqs() {
               onClick={() => {
                 dropDownHandler("availableq");
               }}
+              className={availableq ? `${style.active_dropdown}` : ""}
             />
           </li>
           <li style={{ backgroundColor: `${inductryq ? "#d3812f" : ""}` }}>
@@ -98,6 +99,7 @@ function Faqs() {
               onClick={() => {
                 dropDownHandler("industryq");
               }}
+              className={inductryq ? `${style.active_dropdown}` : ""}
             />
           </li>
           <li style={{ backgroundColor: `${stackq ? "#d3812f" : ""}` }}>
@@ -118,6 +120,7 @@ function Faqs() {
               onClick={() => {
                 dropDownHandler("stackq");
               }}
+              className={stackq ? `${style.active_dropdown}` : ""}
             />
           </li>
           <li style={{ backgroundColor: `${portfolioq ? "#d3812f" : ""}` }}>
@@ -138,6 +141,7 @@ function Faqs() {
               onClick={() => {
                 dropDownHandler("portfolioq");
               }}
+              className={portfolioq ? `${style.active_dropdown}` : ""}
             />
           </li>
           <li style={{ backgroundColor: `${cvq ? "#d3812f" : ""}` }}>
@@ -158,6 +162,7 @@ function Faqs() {
               onClick={() => {
                 dropDownHandler("cvq");
               }}
+              className={cvq ? `${style.active_dropdown}` : ""}
             />
           </li>
         </ul>

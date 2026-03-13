@@ -1,0 +1,4 @@
+.active_dropdown {
+  transform: rotate(45deg);
+  transition: all 0.5s;
+}

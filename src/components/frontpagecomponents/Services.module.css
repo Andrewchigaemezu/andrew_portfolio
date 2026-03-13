@@ -50,6 +50,7 @@
 }
 .service_list_cont li img {
   justify-self: center;
+  transition: all 0.5s;
 }
 
 /* MEDIA QUERIES */

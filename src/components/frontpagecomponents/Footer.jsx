@@ -66,13 +66,13 @@ function Footer() {
                 <P18B>Contact</P18B>
               </li>
               <li>
-                <a href="#">
+                <a href="tel:+2349016382289">
                   {" "}
                   <P16>+234 901 6382 289</P16>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="mailto:yourname@example.com">
                   <P16>elechiandrewchigaemezu@gmail.com</P16>
                 </a>
               </li>
@@ -120,13 +120,13 @@ function Footer() {
             <P18B>Contact</P18B>
           </li>
           <li>
-            <a href="#">
+            <a href="tel:+2349016382289">
               {" "}
               <P16>+234 901 6382 289</P16>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="mailto:yourname@example.com">
               <P16>elechiandrewchigaemezu@gmail.com</P16>
             </a>
           </li>

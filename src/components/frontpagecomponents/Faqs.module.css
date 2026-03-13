@@ -36,6 +36,9 @@
   display: grid;
   grid-template-columns: 1.5fr 0.8fr;
 }
+.faqs_cont {
+  list-style: none;
+}
 
 .faqs_cont li {
   display: grid;
@@ -47,10 +50,16 @@
   margin-bottom: 3.5rem;
   border-radius: 3rem;
   cursor: pointer;
+  transition: all 1s;
 }
 .faqs_cont li img {
   justify-self: right;
+  transition: all 0.5s;
   /* margin-top: 1rem; */
+}
+.active_dropdown {
+  transform: rotate(45deg);
+  transition: all 0.5s;
 }
 .faqs_cont li div p {
   margin-top: 0.5rem;
