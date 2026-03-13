@@ -45,14 +45,13 @@
   border-radius: 4rem;
 }
 
-.mobile_menu:link,
-.mobile_menu:visited {
+.mobile_menu {
   display: none;
   justify-self: right;
 }
 
-.mobile_menu:link img,
-.mobile_menu:visited img {
+.mobile_menu,
+.mobile_menu {
   width: 4rem;
 }
 
@@ -88,8 +87,8 @@
   .nav_btn:visited {
     display: none;
   }
-  .mobile_menu:link,
-  .mobile_menu:visited {
+  .mobile_menu,
+  .mobile_menu {
     display: inline-block;
   }
 

@@ -18,6 +18,8 @@ html {
   font-size: 62.5%;
   line-height: normal;
   font-family: Roboto;
+  scroll-behavior: smooth;
+
   /* font-family: Montserrat; */
 }
 

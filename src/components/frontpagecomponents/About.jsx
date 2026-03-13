@@ -9,7 +9,7 @@ import eclipes from "../../assets/svg/eclipes.svg";
 
 function About() {
   return (
-    <section className={style.about}>
+    <section className={style.about} id="about">
       <div className={style.about_cont}>
         <div className={style.about_text_cont}>
           <div>

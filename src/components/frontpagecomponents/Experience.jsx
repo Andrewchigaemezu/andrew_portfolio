@@ -8,7 +8,7 @@ import worksvg from "../../assets/svg/worksvg.svg";
 
 function Experience() {
   return (
-    <section className={style.experience}>
+    <section className={style.experience} id="education">
       <div className={style.experience_text_cont}>
         <P18B>Education and Work</P18B>
         <span className={style.line}></span>

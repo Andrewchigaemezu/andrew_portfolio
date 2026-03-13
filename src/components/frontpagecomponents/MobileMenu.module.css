@@ -1,0 +1,38 @@
+.mobile_menu {
+  /* height: 50rem; */
+  width: 100%;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  border-bottom: 0.3rem solid var(--primary-color-light);
+  padding: 5rem 3rem 3rem 3rem;
+  position: fixed;
+  left: 0;
+  top: 6rem;
+  z-index: 999;
+}
+.mobile_menu ul {
+  list-style: none;
+  width: 100%;
+}
+.mobile_menu ul li {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.mobile_menu ul li a:link,
+.mobile_menu ul li a:visited {
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  display: inline-block;
+}
+.mobile_menu ul li:last-child {
+  justify-content: right;
+  text-align: right;
+}
+.mobile_menu ul li:last-child a:link,
+.mobile_menu ul li:last-child a:visited {
+  padding: 1.5rem 4rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 3rem;
+}

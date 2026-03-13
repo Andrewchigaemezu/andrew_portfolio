@@ -9,7 +9,7 @@ import linkedinicon from "../../assets/svg/linkedinicon.svg";
 
 function Contact() {
   return (
-    <section className={style.contact}>
+    <section className={style.contact} id="contact_me">
       <header>
         <P18B>Contact me</P18B>
         <span className={style.line}></span>

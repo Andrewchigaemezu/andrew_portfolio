@@ -38,7 +38,7 @@ const SERVICES = [
 
 function Services() {
   return (
-    <section className={style.services}>
+    <section className={style.services} id="services">
       <P18B>My Specialization</P18B>
       <span className={style.line}></span>
       <H2B classname={style.service_header}>

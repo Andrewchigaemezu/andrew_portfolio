@@ -4,13 +4,22 @@ import menu from "../../assets/svg/menu.svg";
 import H1 from "../../utilities/H1";
 import H3 from "../../utilities/H3";
 import P18 from "../../utilities/P18";
+import { useSelector, useDispatch } from "react-redux";
+import { modalActions } from "../../store";
+import { Link } from "react-router-dom";
 
 function NavBar() {
+  const dispatch = useDispatch();
+  const isOpen = useSelector((state) => state.isOpen);
+
+  console.log(isOpen);
   return (
     <header className={style.nav_cont}>
       <div className={style.nav_icon_cont}>
         <img src={poweronsvg} className={style.nav_cont_img} />
-        <H1>Andrew</H1>
+        <Link to={"/"}>
+          <H1>Andrew</H1>
+        </Link>
       </div>
       <nav className={style.navigation}>
         <a href="#">
@@ -26,9 +35,15 @@ function NavBar() {
       <a className={style.nav_btn} href="#">
         <P18>Contact Me</P18>
       </a>
-      <a href="#" className={style.mobile_menu}>
-        <img src={menu} alt="menu icon" />
-      </a>
+
+      <img
+        src={menu}
+        alt="menu icon"
+        className={style.mobile_menu}
+        onClick={() => {
+          dispatch(modalActions.openCloseModal());
+        }}
+      />
     </header>
   );
 }
