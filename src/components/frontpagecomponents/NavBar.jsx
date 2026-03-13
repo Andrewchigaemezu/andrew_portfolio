@@ -12,8 +12,6 @@ import { Link } from "react-router-dom";
 function NavBar() {
   const dispatch = useDispatch();
   const isOpen = useSelector((state) => state.isOpen);
-
-  console.log(isOpen);
   return (
     <header className={style.nav_cont}>
       <div className={style.nav_icon_cont}>

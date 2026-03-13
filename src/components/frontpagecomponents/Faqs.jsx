@@ -13,8 +13,6 @@ function Faqs() {
   const [inductryq, setIndustryq] = useState(true);
   const [portfolioq, setPortfolioq] = useState(false);
   const [cvq, setcvq] = useState(false);
-
-  console.log(availableq);
   function dropDownHandler(caller) {
     if (caller === "availableq") {
       setStackq(false);
