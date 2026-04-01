@@ -7,6 +7,7 @@ import urlsvg from "../../assets/svg/urlsvg.svg";
 import gitsvg from "../../assets/svg/gitsvg.svg";
 import raichielle from "../../assets/img/raichielle.png";
 import codemek from "../../assets/img/codemek.png";
+import swacore from "../../assets/img/swacore.png";
 import { Link } from "react-router-dom";
 
 function Portfolio() {
@@ -28,6 +29,44 @@ function Portfolio() {
 
       <div className={style.portfolio_card_cont}>
         <figure className={style.portfolio_card}>
+          <div className={style.portfolio_card_text_cont}>
+            <H2B>
+              SWACORE- <br />
+              <span>Waste Management website</span>
+            </H2B>
+            <ul>
+              <li>
+                <P16B>Client</P16B>
+                <P16>Philip Okoro</P16>
+              </li>
+              <li>
+                <P16B>Duration</P16B>
+                <P16>2 Weeks</P16>
+              </li>
+              <li>
+                <P16B>Country</P16B>
+                <P16>Nigeria</P16>
+              </li>
+            </ul>
+            <div className={style.project_links_cont}>
+              <Link to="#" className={style.project_link}>
+                <img src={urlsvg} alt="url icon" />
+                <P18>Visit site</P18>
+              </Link>
+              <a href="#" className={style.project_link}>
+                <img src={gitsvg} alt="github icon" />
+                <P16>Visit repo </P16>
+              </a>
+            </div>
+          </div>
+          <img
+            src={swacore}
+            alt="SWACORE company website design image"
+            className={style.portfolio_card_img}
+          />
+        </figure>
+
+        <figure className={style.portfolio_card}>
           <img
             src={raichielle}
             alt="raichielle company website design image"
@@ -45,7 +84,7 @@ function Portfolio() {
               </li>
               <li>
                 <P16B>Duration</P16B>
-                <P16>4 Months</P16>
+                <P16>4 Weeks</P16>
               </li>
               <li>
                 <P16B>Country</P16B>
@@ -83,7 +122,7 @@ function Portfolio() {
               </li>
               <li>
                 <P16B>Duration</P16B>
-                <P16>5 Months</P16>
+                <P16>In Progress</P16>
               </li>
               <li>
                 <P16B>Country</P16B>
