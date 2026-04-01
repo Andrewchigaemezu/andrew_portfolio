@@ -3,7 +3,7 @@
   width: 100%;
   background-image:
     linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/portfoliobg.png");
+    url("/img/portfoliohero.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
