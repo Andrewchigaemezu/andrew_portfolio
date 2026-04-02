@@ -49,11 +49,17 @@ function Portfolio() {
               </li>
             </ul>
             <div className={style.project_links_cont}>
-              <Link to="#" className={style.project_link}>
+              <Link
+                to="https://swacore.vercel.app/"
+                className={style.project_link}
+              >
                 <img src={urlsvg} alt="url icon" />
                 <P18>Visit site</P18>
               </Link>
-              <a href="#" className={style.project_link}>
+              <a
+                href="https://github.com/Andrewchigaemezu/swacore"
+                className={style.project_link}
+              >
                 <img src={gitsvg} alt="github icon" />
                 <P16>Visit repo </P16>
               </a>
